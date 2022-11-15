@@ -15,6 +15,18 @@ h1 {
   font-size: 96px;
 }
 
+@media (max-width: 676px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .app-title {
+    font-size: 40px;
+  }
+}
+
 h2 {
   font-size: 48px;
 }
@@ -65,9 +77,7 @@ p .about {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-.about-h1 {
-  font-size: 96px;
-}
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
